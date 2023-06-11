@@ -1,15 +1,15 @@
 import './category-item.styles.scss';
 
 const CategoryItem = ({ category }) => {
-    const { title, productImage } = category;
+    const { title, imageUrl } = category;
     return (
         <div className="category-container">
             <img className="background-image" style={
                 //Dinamik CSS object
                 {
-                    backgroundImage: ({ productImage }) //template string syntax
+                    backgroundImage: ({ imageUrl }) //template string syntax
                 }
-            } alt="" src={productImage} />
+            } alt="" src={imageUrl} />
             <div className="description">
                 <p>
                     <b>{title}</b>

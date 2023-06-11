@@ -1,0 +1,21 @@
+.sign-in{
+   margin-top: 70px;
+margin-left: 690px;
+ background-color: rgba(241, 42, 7, 0.87);
+ text-align: center;
+ border-radius: 4px;
+ width: 20%;
+ height: 150px;
+
+}
+.sign-in >h1{
+    font-size: xx-large;
+   text-align: center;
+   color: aliceblue;
+}
+.btn{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 4px;
+    height: 50px;
+}

@@ -23,6 +23,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+      
 
         .nav-link {
             padding: 10px 15px;
@@ -32,5 +33,9 @@
             align-items: center;
             font-weight: lighter;
         }
+    }
+    .g1{
+        color: white;
+        margin-right: 12px;
     }
 }
